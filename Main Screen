@@ -1,0 +1,21 @@
+#print to excel files
+
+def cate():
+    opt1 = raw_input("Enter the Category Name: ")
+    for word in opt1:
+        print str(word)
+        return
+
+def store():
+        opt2 = raw_input("Enter the Store Name: ")
+        for company in opt2:
+            print company
+
+def amount():
+    opt3 = raw_input("Enter the Amount: ")
+    for cost in opt3:
+        print cost
+
+cate()
+store()
+amount()
